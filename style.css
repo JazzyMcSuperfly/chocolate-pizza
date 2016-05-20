@@ -1,1 +1,58 @@
-// CSS Style page
+/*// CSS Style page
+
+// note for the diagonal background of the border
+// this might need to be it's own div
+// from this page: http://www.patternify.com/*/
+
+/*.myDiv{
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAOUlEQVQYV2NkYGD4z8DAwMiAB8Ak8SpENgGnQnRrsCrE5hYMhbgcjKIQn6/gCvF6HRY8hBSBQu8/ANT4CQkBgPxMAAAAAElFTkSuQmCC);
+  repeat;
+}*/
+
+* {
+  /*background-color: #ffffff;*/
+  /*background-color: white;*/
+  /*color: #333333;*/
+}
+
+
+body {
+  background-color: #ffffff;
+  /*background-color: white;*/
+  color: #333333;
+}
+
+#main {
+  background-color: orange;
+  width: 620px;
+  margin: auto;
+}
+
+.blog-name {
+  font-family: "Brush Script MT", serif;
+  font-size: 60px;
+}
+
+.blog-name-sub {
+
+}
+
+.title {
+
+}
+
+.publish-print {
+
+}
+
+.text {
+
+}
+
+.recipe {
+
+}
+
+.author-share {
+
+}
