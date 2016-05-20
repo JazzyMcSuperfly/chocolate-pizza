@@ -10,49 +10,61 @@
 }*/
 
 * {
-  /*background-color: #ffffff;*/
-  /*background-color: white;*/
-  /*color: #333333;*/
+  background-color: #ffffff;
 }
-
 
 body {
   background-color: #ffffff;
-  /*background-color: white;*/
   color: #333333;
+  max-width: 900px;
+  margin: 0px auto;
 }
 
-#main {
-  background-color: orange;
-  width: 620px;
-  margin: auto;
+header {
+
 }
 
-.blog-name {
+footer {
+  font-family: "Georgia", Times, sans-serif;
+  font-size: 12px;
+  color: #999999;
+  text-align: center;
+}
+
+header>img {
+  display: inline;
+}
+
+#blog-name {
   font-family: "Brush Script MT", serif;
   font-size: 60px;
 }
 
-.blog-name-sub {
+#blog-name-sub {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+#title {
+  font-family: "Impact", Verdana, sans-serif;
+}
+
+#publish-print {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+#text {
+  font-family: "Georgia", Times, serif;
+  text-indent: 20px;
+  color: #999999;
+  font-size: 12px;
+}
+
+#recipe {
 
 }
 
-.title {
-
-}
-
-.publish-print {
-
-}
-
-.text {
-
-}
-
-.recipe {
-
-}
-
-.author-share {
-
+#author-share {
+  font-family: "Georgia", Times, sans-serif;
 }
