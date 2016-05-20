@@ -13,22 +13,26 @@
   background-color: #ffffff;
 }
 
+body {
+  background-color: #ffffff;
+  color: #333333;
+  max-width: 900px;
+  margin: 0px auto;
+}
+
 header {
 
 }
 
+footer {
+  font-family: "Georgia", Times, sans-serif;
+  font-size: 12px;
+  color: #999999;
+  text-align: center;
+}
+
 header>img {
   display: inline;
-}
-
-body {
-  background-color: #ffffff;
-  color: #333333;
-}
-
-#main {
-  width: 620px;
-  margin: auto;
 }
 
 #blog-name {
@@ -50,10 +54,6 @@ body {
   font-family: "Trebuchet MS", Verdana, sans-serif;
 }
 
-#img>img {
-  width: 640px;
-}
-
 #text {
   font-family: "Georgia", Times, serif;
   text-indent: 20px;
@@ -67,11 +67,4 @@ body {
 
 #author-share {
   font-family: "Georgia", Times, sans-serif;
-}
-
-footer {
-  font-family: "Georgia", Times, sans-serif;
-  font-size: 12px;
-  color: #999999;
-  text-align: center;
 }
