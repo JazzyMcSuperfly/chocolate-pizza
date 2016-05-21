@@ -1,1 +1,1 @@
-// JS app page
+// JS app crossing off text on checkbox click

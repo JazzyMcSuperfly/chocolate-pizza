@@ -10,7 +10,7 @@
 }*/
 
 * {
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
 }
 
 body {
@@ -52,6 +52,11 @@ footer.p {
   display: inline;
 }
 
+/*#recipe>ul {
+  background-image: url("images/list-bg.png");
+  font-size: 20px;
+}*/
+
 #blog-name {
   font-family: "Brush Script MT", serif;
   font-size: 35px;
@@ -62,6 +67,14 @@ footer.p {
   font-family: "Trebuchet MS", Verdana, sans-serif;
   text-transform: uppercase;
   color: #999999;
+}
+
+.deco-line {
+  width: 640px;
+  height: 14px;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAOUlEQVQYV2NkYGD4z8DAwMiAB8Ak8SpENgGnQnRrsCrE5hYMhbgcjKIQn6/gCvF6HRY8hBSBQu8/ANT4CQkBgPxMAAAAAElFTkSuQmCC);
+  /*background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJ0lEQVQYV2NkYGD4z8DAwMgAATjZBBXADIEpxGsaSDFI4ajVOEMAAA+gIgfZ8OOiAAAAAElFTkSuQmCC);*/
+  repeat;
 }
 
 #title {
@@ -83,7 +96,12 @@ footer.p {
 }
 
 #recipe {
-  background-image: ulr("list-bg.png");
+  background-image: url("images/list-bg.png");
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 12px;
+  padding: 20px;
+  color: #666666;
+  column-count: 2;
 }
 
 #author-share {
