@@ -26,11 +26,12 @@ footer {
 button {
   float: right;
   display: inline;
-  background-color: #d97b34;
+  background-color: #BC7058;
   border: none;
   color: #ffffff;
   font-size: 8px:
-  padding: 30px;
+  width: 120px;
+  height: 50px;
 }
 
 header>img {
@@ -38,6 +39,15 @@ header>img {
   display: inline;
   padding: 0px 10px 0px 0px;
   height: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style-position: inside;
+  text-indent: -2em;
 }
 
 #blog-name>span {
@@ -146,6 +156,7 @@ footer>img {
   padding: 20px;
   color: #666666;
   column-count: 2;
+  box-shadow: 0 8px 6px -6px gray;
 }
 
 #authorInfo {
@@ -153,4 +164,12 @@ footer>img {
   color: #999999;
   font-size: 12px;
   display: inline;
+}
+
+#vanessa {
+  float: left;
+}
+
+.strike {
+  text-decoration: line-through;
 }
