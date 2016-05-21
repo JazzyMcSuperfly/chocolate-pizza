@@ -1,14 +1,3 @@
-/*// CSS Style page
-
-// note for the diagonal background of the border
-// this might need to be it's own div
-// from this page: http://www.patternify.com/*/
-
-/*.myDiv{
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAOUlEQVQYV2NkYGD4z8DAwMiAB8Ak8SpENgGnQnRrsCrE5hYMhbgcjKIQn6/gCvF6HRY8hBSBQu8/ANT4CQkBgPxMAAAAAElFTkSuQmCC);
-  repeat;
-}*/
-
 body {
   background-color: #ffffff;
   color: #333333;
@@ -16,17 +5,11 @@ body {
   margin: 0px auto;
 }
 
-/* ************************************************************ */
-
 header {
- /*background-color: yellow;*/
  margin: 20px 0px 0px 0px;
- /*display: flex;*/
- /*align-items: center;*/
 }
 
 header>img {
-  /*display: inline-block;*/
   float: left;
   display: inline;
   padding: 0px 10px 0px 0px;
@@ -43,7 +26,6 @@ header>img {
 }
 
 #blog-name {
-  /*background-color: red;*/
   font-size: 10px;
   font-family: "Trebuchet MS", Verdana, sans-serif;
   text-transform: uppercase;
@@ -51,42 +33,22 @@ header>img {
   margin: 0;
   padding: 0;
   position: relative;
-  /*left: 10px;*/
   display: inline;
-  /*line-height: 10px;*/
 }
 
 #social {
-  /*position: relative;*/
-  /*display: inline;*/
-  /*float: right;*/
-  /*background-color: orange;*/
-  /*display: inline-block;*/
-  /*margin: 0;
-  padding: 0;*/
   display: flex;
   justify-content: flex-end;;
   margin: 2px;
 }
 
 #social img {
-  /*margin: 0;
-  padding: 0;*/
   margin: 0px 1px;
 }
 
 #rss {
   margin-left: 10px;
 }
-
-/*.deco-line {
-  margin: 20px 0px;
-  display: block;
-  width: 640px;
-  height: 14px;
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAOUlEQVQYV2NkYGD4z8DAwMiAB8Ak8SpENgGnQnRrsCrE5hYMhbgcjKIQn6/gCvF6HRY8hBSBQu8/ANT4CQkBgPxMAAAAAElFTkSuQmCC);
-  repeat;
-}*/
 
 .deco-line {
   margin: 20px 0px;
@@ -101,12 +63,8 @@ header>img {
       black 2px /* determines size */
     );
 }
-/* ************************************************************ */
 
 h2 {
-  /*margin: 20px 0px 0px 0px;*/
-  /*padding: 20px 0px 0px 0px;
-  font-size: 30px;*/
   margin: 0px;
   padding: 0px;
 }
@@ -115,7 +73,6 @@ h2 {
   font-family: "Impact", Verdana, sans-serif;
   padding: 0px;
   margin: 40px 0px 0px 0px;
-  /*background-color: orange;*/
 }
 
 #publish-print {
@@ -124,7 +81,6 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*background-color: yellow;*/
   font-family: "Trebuchet MS", Verdana, sans-serif;
   color: #999999;
   font-size: 10px;
@@ -134,18 +90,6 @@ h2 {
   margin: 0px;
   padding: 0px;
 }
-
-
-/*#publish-print {
-  font-family: "Trebuchet MS", Verdana, sans-serif;
-  color: #999999;
-  font-size: 10px;
-}*/
-
-/*#publish-print.img {
-  display: flex;
-  justify-content: flex-end;
-}*/
 
 footer {
   font-family: "Georgia", Times, sans-serif;
@@ -161,10 +105,6 @@ footer>img {
   padding: 0px 0px 20px 0px;
 }
 
-footer.p {
-  /*background-color: orange;*/
-}
-
 #img>img {
   width: 640px;
 }
@@ -176,18 +116,6 @@ footer.p {
 #author-share>img {
   display: inline;
 }
-
-/*#recipe>ul {
-  background-image: url("images/list-bg.png");
-  font-size: 20px;
-}*/
-
-/*#blog-name-sub {
-  font-size: 12px;
-  font-family: "Trebuchet MS", Verdana, sans-serif;
-  text-transform: uppercase;
-  color: #999999;
-}*/
 
 #text {
   font-family: "Georgia", Times, serif;
@@ -216,19 +144,11 @@ button {
   padding: 30px;
 }
 
-/*#author-share {
-  font-family: "Georgia", Times, sans-serif;
-  color: #999999;
-  font-size: 12px;
-}*/
-
 #authorInfo {
   font-family: "Georgia", Times, sans-serif;
   color: #999999;
   font-size: 12px;
   display: inline;
-  /*display: flex;
-  justify-content: flex-start;*/
 }
 
 #authorInfo>img {
