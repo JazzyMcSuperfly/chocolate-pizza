@@ -9,10 +9,6 @@
   repeat;
 }*/
 
-* {
-  /*background-color: #ffffff;*/
-}
-
 body {
   background-color: #ffffff;
   color: #333333;
@@ -20,9 +16,70 @@ body {
   margin: 0px auto;
 }
 
-header {
+/* ************************************************************ */
 
+header {
+ /*background-color: yellow;*/
 }
+
+header>img {
+  /*display: inline-block;*/
+  float: left;
+  display: inline;
+  padding: 0px, 40px, 0px, 0px;
+  height: 40px;
+}
+
+#blog-name>span {
+  color: #000000;
+  font-family: "Brush Script MT", serif;
+  font-size: 35px;
+  display: inline;
+  text-transform: none;
+  line-height: 30px;
+}
+
+#blog-name {
+  font-size: 10px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 10px;
+  /*line-height: 10px;*/
+}
+
+#social {
+  position: relative;
+  display: inline;
+  float: right;
+  background-color: orange;
+  /*display: inline-block;*/
+  /*margin: 0;
+  padding: 0;*/
+}
+
+#social>img {
+  /*margin: 0;
+  padding: 0;*/
+}
+
+#rss {
+  margin-left: 10px;
+}
+
+.deco-line {
+  margin: 20px 0px;
+  display: block;
+  width: 640px;
+  height: 14px;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAOUlEQVQYV2NkYGD4z8DAwMiAB8Ak8SpENgGnQnRrsCrE5hYMhbgcjKIQn6/gCvF6HRY8hBSBQu8/ANT4CQkBgPxMAAAAAElFTkSuQmCC);
+  /*background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJ0lEQVQYV2NkYGD4z8DAwMgAATjZBBXADIEpxGsaSDFI4ajVOEMAAA+gIgfZ8OOiAAAAAElFTkSuQmCC);*/
+  repeat;
+}
+/* ************************************************************ */
 
 footer {
   font-family: "Georgia", Times, sans-serif;
@@ -30,10 +87,6 @@ footer {
   color: #999999;
   text-align: center;
   line-height: 10px;
-}
-
-header>img {
-  display: inline;
 }
 
 footer.p {
@@ -57,25 +110,12 @@ footer.p {
   font-size: 20px;
 }*/
 
-#blog-name {
-  font-family: "Brush Script MT", serif;
-  font-size: 35px;
-}
-
-#blog-name-sub {
+/*#blog-name-sub {
   font-size: 12px;
   font-family: "Trebuchet MS", Verdana, sans-serif;
   text-transform: uppercase;
   color: #999999;
-}
-
-.deco-line {
-  width: 640px;
-  height: 14px;
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAOUlEQVQYV2NkYGD4z8DAwMiAB8Ak8SpENgGnQnRrsCrE5hYMhbgcjKIQn6/gCvF6HRY8hBSBQu8/ANT4CQkBgPxMAAAAAElFTkSuQmCC);
-  /*background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJ0lEQVQYV2NkYGD4z8DAwMgAATjZBBXADIEpxGsaSDFI4ajVOEMAAA+gIgfZ8OOiAAAAAElFTkSuQmCC);*/
-  repeat;
-}
+}*/
 
 #title {
   font-family: "Impact", Verdana, sans-serif;
