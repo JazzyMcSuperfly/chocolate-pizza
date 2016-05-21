@@ -9,6 +9,30 @@ header {
  margin: 20px 0px 0px 0px;
 }
 
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+footer {
+  font-family: "Georgia", Times, sans-serif;
+  font-size: 10px;
+  color: #999999;
+  text-align: center;
+  line-height: 5px;
+  margin: 60px 0px 30px 0px;
+}
+
+button {
+  float: right;
+  display: inline;
+  background-color: #d97b34;
+  border: none;
+  color: #ffffff;
+  font-size: 8px:
+  padding: 30px;
+}
+
 header>img {
   float: left;
   display: inline;
@@ -25,79 +49,13 @@ header>img {
   line-height: 30px;
 }
 
-#blog-name {
-  font-size: 10px;
-  font-family: "Trebuchet MS", Verdana, sans-serif;
-  text-transform: uppercase;
-  color: #999999;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  display: inline;
-}
-
-#social {
-  display: flex;
-  justify-content: flex-end;;
-  margin: 2px;
-}
-
 #social img {
   margin: 0px 1px;
-}
-
-#rss {
-  margin-left: 10px;
-}
-
-.deco-line {
-  margin: 20px 0px;
-  width: 640px;
-  height: 10px;
-  background-image:
-    repeating-linear-gradient(
-      45deg,
-      white,
-      white 1px,
-      black 2px,
-      black 2px /* determines size */
-    );
-}
-
-h2 {
-  margin: 0px;
-  padding: 0px;
-}
-
-#title {
-  font-family: "Impact", Verdana, sans-serif;
-  padding: 0px;
-  margin: 40px 0px 0px 0px;
-}
-
-#publish-print {
-  margin: 0px;
-  padding: 0px 0px 20px 0px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Trebuchet MS", Verdana, sans-serif;
-  color: #999999;
-  font-size: 10px;
 }
 
 #publish-print>p {
   margin: 0px;
   padding: 0px;
-}
-
-footer {
-  font-family: "Georgia", Times, sans-serif;
-  font-size: 10px;
-  color: #999999;
-  text-align: center;
-  line-height: 5px;
-  margin: 60px 0px 30px 0px;
 }
 
 footer>img {
@@ -117,6 +75,62 @@ footer>img {
   display: inline;
 }
 
+#authorInfo>img {
+  float: right;
+}
+
+.deco-line {
+  margin: 20px 0px;
+  width: 640px;
+  height: 10px;
+  background-image:
+  repeating-linear-gradient(
+    45deg,
+    white,
+    white 1px,
+    black 2px,
+    black 2px /* determines size */
+    );
+  }
+
+#rss {
+  margin-left: 10px;
+}
+
+#title {
+  font-family: "Impact", Verdana, sans-serif;
+  padding: 0px;
+  margin: 40px 0px 0px 0px;
+}
+
+#blog-name {
+  font-size: 10px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline;
+}
+
+#social {
+  display: flex;
+  justify-content: flex-end;;
+  margin: 2px;
+}
+
+#publish-print {
+  margin: 0px;
+  padding: 0px 0px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: #999999;
+  font-size: 10px;
+}
+
 #text {
   font-family: "Georgia", Times, serif;
   text-indent: 20px;
@@ -134,23 +148,9 @@ footer>img {
   column-count: 2;
 }
 
-button {
-  float: right;
-  display: inline;
-  background-color: #d97b34;
-  border: none;
-  color: #ffffff;
-  font-size: 8px:
-  padding: 30px;
-}
-
 #authorInfo {
   font-family: "Georgia", Times, sans-serif;
   color: #999999;
   font-size: 12px;
   display: inline;
-}
-
-#authorInfo>img {
-  float: right;
 }
